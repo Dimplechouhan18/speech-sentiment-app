@@ -33,6 +33,7 @@ User uploads or recordsan audio file
 Audio is processed using Librosa
 
 Features extracted:
+
 MFCC (Mel Frequency Cepstral Coefficients)
 
 Chroma Features
@@ -40,28 +41,45 @@ Chroma Features
 Features are scaled and reshaped
 
 CNN model predicts emotion
+
 System classifies output as:
+
 😊 Positive
+
 😐 Neutral
+
 😠 Negative
 
 📌 Output displays:
+
 Predicted Sentiment
+
 Confidence Score
+
 Visual Feedback
 
 Feedback
+
 🏗️ Tech Stack
+
 Python
+
 TensorFlow / Keras
+
 Librosa
+
 NumPy
+
 Pandas
+
 Scikit-learn
+
 Hugging Face Spaces
+
 Gradio / Streamlit
 
 📂 Project Structure
+
 speech-sentiment-analysis/
 │
 ├── app.py                  # Main application

@@ -1,10 +1,13 @@
 🎤 Speech Sentiment Analysis System
+
 AI-Powered Audio Emotion Detection
 
 🚀 Overview
 
 This project is a Deep Learning-based Speech Sentiment Analysis System that detects emotions from audio input.
+
 It analyzes speech signals using advanced feature extraction techniques and a trained CNN model to classify emotions as Positive, Negative, or Neutral.
+
 The system is deployed using Hugging Face Spaces with an interactive and user-friendly UI.
 
 🎯 Key Features

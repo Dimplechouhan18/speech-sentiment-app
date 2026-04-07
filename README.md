@@ -1,5 +1,4 @@
 🎤 Speech Sentiment Analysis System
-
 AI-Powered Audio Emotion Detection
 
 🚀 Overview
@@ -36,7 +35,8 @@ Predicted Sentiment
 Confidence Score
 Visual Feedback
 
-🏗️Tech Stack
+Feedback
+🏗️ Tech Stack
 Python
 TensorFlow / Keras
 Librosa
@@ -46,5 +46,16 @@ Scikit-learn
 Hugging Face Spaces
 Gradio / Streamlit
 
+📂 Project Structure
+speech-sentiment-analysis/
+│
+├── app.py                  # Main application
+├── model.h5               # Trained CNN model
+├── scaler.pkl             # Feature scaler
+├── speech_sentiment.py    # Training & preprocessing script
+├── requirements.txt       # Dependencies
+└── README.md              # Documentation
+
 🌐 Live Demo
+
 👉 https://huggingface.co/spaces/dimplechouhan/speech-sentiment

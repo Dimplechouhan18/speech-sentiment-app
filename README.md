@@ -13,20 +13,32 @@ The system is deployed using Hugging Face Spaces with an interactive and user-fr
 🎯 Key Features
 
 🎤 Audio-based sentiment detection
+
 🤖 Deep Learning model (CNN)
+
 📊 Real-time emotion prediction
+
 ⚡ Fast and efficient processing
+
 🎧 Supports audio file input
+
 📈 Feature extraction using MFCC & Chroma
+
 🎨 Clean and interactive UI (Gradio / Streamlit-based)
 
 🧠 How It Works
-User uploads or records an audio file
+
+User uploads or recordsan audio file
+
 Audio is processed using Librosa
+
 Features extracted:
 MFCC (Mel Frequency Cepstral Coefficients)
+
 Chroma Features
+
 Features are scaled and reshaped
+
 CNN model predicts emotion
 System classifies output as:
 😊 Positive

@@ -28,21 +28,21 @@ The system is deployed using Hugging Face Spaces with an interactive and user-fr
 
 🧠 How It Works
 
-User uploads or recordsan audio file
+1. User uploads or recordsan audio file
 
-Audio is processed using Librosa
+2. Audio is processed using Librosa
 
-Features extracted:
+3. Features extracted:
 
 MFCC (Mel Frequency Cepstral Coefficients)
 
 Chroma Features
 
-Features are scaled and reshaped
+4. Features are scaled and reshaped
 
-CNN model predicts emotion
+5. CNN model predicts emotion
 
-System classifies output as:
+6. System classifies output as:
 
 😊 Positive
 
